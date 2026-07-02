@@ -1,0 +1,85 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+	<meta name="description" content="First website" />
+    <meta name="author" content="Duong Day"/>
+    <meta name="country" content="Vietnam"/>
+	<title>ThanhDuong Resume</title>
+    <link rel="stylesheet" href="css/10.css">
+</head>
+<body>
+	<h1 id="menu_text"><strong>My Resume</strong></h1>
+    <nav>
+        <a href="#contact" class="menu_left">About</a>
+        <a href="#education" class="menu_left">Education</a>
+        <a href="#score" class="menu_left">Score</a>
+        <a href="#social " class="meunu_right">Social Media</a>
+    </nav>
+
+    <div id="flex_container">
+        <div id="left_side">
+            
+            <h2 id="contact"><strong>About me</strong></h2>
+            <img src="image/3371154.jpg" alt="My photo" width="200" height="100" />
+            <p><em>I am working in the in formation technology field.</em></p>
+            <ul>
+                <li><strong>Fullname:</strong> Duong Day</li>
+                <li><strong>Country:</strong> VietNam</li>
+            </ul>
+            
+            <h2 id="education"><strong>Education</strong></h2>
+            <ol>
+                <li>LuongVanCan Highschool</li>
+                <li>SaiGon Technology University</li>
+                <li>Stanford Unviersity</li>
+            </ol>
+        
+        </div>
+
+        <div id="right_side">
+            <h2 id="score">Scores</h2>
+        <!-- ------------------KIEU BANG------------------- -->
+            <table>
+                <tr>
+                    <th></th>
+                    <th colspan="2"> Math </th> 
+                    <!-- //muon chiem 2 cot la cosplan="2" va con dong la rowspan="" -->
+                    <th> Physics</th>
+                    <th> IT</th>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>8</td>
+                </tr>
+            </table>
+            
+            <h2 id="social">Social Media</h2>
+            <p>FaceBook: <a href="https://web.facebook.com/thanh.duongg.485527/?locale=vi_VN"> Facebook</a></p>
+            
+            
+        </div>
+    </div>
+
+    <footer>
+        Created by Thanh Duong - <a href="mailto:dranky01@gmail.com">Email me</a>
+    </footer>
+</body>
+</html>
